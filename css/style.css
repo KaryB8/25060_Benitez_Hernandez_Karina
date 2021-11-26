@@ -1,0 +1,246 @@
+@charset "utf-8";
+header {
+    background-color: #DAA7CE;
+    width: 0%;
+    color: #FBF7FA;
+    height: 100px;
+    margin-top: 0px;
+}
+header h1 {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+body  , header   ,nav, section, footer, main{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 0px;
+}
+nav {
+    height: 60px;
+    background-color: #333333;
+    color: #FBF7FA;
+}
+footer {
+    background-color: #333333;
+    color: #FBF7FA;
+    height: auto;
+    padding-top: 16px;
+}
+
+
+main {
+    padding: 20px;
+    background-color: #FEDDDE;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer h5 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+nav ul {
+    height: 40px;
+
+}
+main section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #DAA7CE;
+    padding: 20px;
+    height: auto;
+    border: 5px outset #FBF7FA;
+    overflow: auto;
+}
+main section h2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    color: #FBF7FA;
+    font-style: normal;
+    font-family: satisfy;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    height: 20px;
+}
+#link-2 {
+}
+a:link{
+	color:#FFC2AD;
+	text-decoration:none;
+	font-weight:bolder;
+}
+a:visited{
+	color:#6969c9;
+	text-decoration: none;
+	fot-weigth: bolder;
+}
+a:active{
+	color: #ED756E;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:hover{
+	color: #D9AB25;
+	font-weight: bolder;
+	text-decoration: none;
+}
+#link-3 {
+}
+#link-4 {
+}
+#link-5 {
+}
+#picture_1 {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid #151723;
+}
+.img_flotante {
+    margin-right: 30px;
+    float: left;
+    width: 40%;
+    height: auto;
+}
+.picture_2 {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.parrafo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #584053;
+    font-size: 18px;
+}
+.img_redondeada {
+    border-radius: 10px;
+}
+.img_redondeado2 {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 200px;
+}
+.picture_3 {
+    border-radius: 50%;
+}
+.picture_4 {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.img_blur {
+    filter: blur(3px);
+}
+.img_brillo {
+    filter: brightness(200%);
+}
+.img_contraste {
+    filter: contrast(200%);
+}
+.img_grises {
+    filter: grayscale(100%);
+}
+.img_invertido {
+    filter: invert(100%);
+}
+.img_opacidad {
+    filter: opacity(30%);
+}
+.img_saturacion {
+    filter: saturation(500%);
+}
+.img_sepia {
+    filter: sepia(100%);
+}
+.video_size {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.animate__faster {
+}
+
+input[type=text],input[type=number]{
+	background-color: #180829;
+	color: white;
+	width:50%;
+	margin:10px;
+	padding:10px;
+	font-size:18px;
+	box-sizing:border-box;
+	border-radius:10px;
+}
+input[type=submit]{
+	background-color:#ED756E;
+	width:150px;
+	height:40px;
+	padding:10px;
+	margin:10px;
+	font-size:18px;
+	font-weight:bold;
+	box-sizing:border-box;
+	border-radius:30px;
+}
+select, select option{
+	background-color: #180829;
+	color: white;
+	width:50%;
+	padding:10px;
+	margin:10px;
+	font-size:18px;
+	font-weight:bold;
+	box-sizing:border-box;
+	border-radius:10px;
+}
+.parrafo_formulario,label{
+	font-size: 18px;
+	color: aliceblue;
+}
+.text_final {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: auto;
+    font-family: satisfy;
+    font-style: normal;
+    font-weight: 400;
+    color: #7400F4;
+}
