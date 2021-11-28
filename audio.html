@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Audio en html5</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/satisfy:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<!--Shortcut de estructura general:(header>h1)+(nav>(ul>(li*5)))+(main>((section>(h2+p))*4))+(footer>h5)-->
+	<header>
+		<h1>Audio en html5</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="imágenes.html">Imágenes</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+			<li><a href="animate.html">Animate</a></li>
+			<li><a href="flexbox.html">Flexbox</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Inserción de audio simple</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi distinctio fugit, sequi iste dolores aliquam illum inventore est fuga.</p>
+			<audio controls>
+				<source src="../medios/audio/Islabonita - An Jone.mp3" type="audio/mp3">
+				<source src="" type="audio/wav">
+				<source src="" type="audio/ogg">
+				Your browser doesn't support the audio tag.
+			</audio>
+		</section>
+		<section>
+			<h2>Inserción de audio con reprodudcción automática  (probar en iexplorer)</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorem aperiam eveniet nostrum corrupti. Accusantium dolorum, sit perspiciatis! Explicabo, consectetur.</p>
+            <audio controls="controls" autoplay="autoplay" >
+              <source src="../medios/audio/The Stoic and the Sailor - Unicorn Heads.mp3" type="audio/mp3">
+            </audio>
+		</section>
+		<section>
+			<h2>Inserción de audio con reproducción cíclica</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tempora aliquid laudantium officia saepe itaque similique quos, at eius dolorum.</p>
+            <audio controls="controls" autoplay="autoplay" loop="loop" >
+              <source src="../medios/audio/Wolf Moon - Unicorn Heads.mp3" type="audio/mp3">
+            </audio>
+		</section>
+		<section>
+			<h2>Inserción de audio de repositorio</h2>
+			<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deserunt voluptatum asperiores aliquam dolorem quod sequi veniam molestiae inventore aut.</p>
+			<iframe id='audio_4440924' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:50%;' src='https://mx.ivoox.com/es/player_ej_4440924_6_1.html'></iframe>
+		</section>
+		<section>
+		  <h2>Inserción de audio de repositorio</h2>
+		  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deserunt voluptatum asperiores aliquam dolorem quod sequi veniam molestiae inventore aut.</p>
+		  <iframe width="60%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/278202218&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jamie-han-349985932" title="Jamie Han" target="_blank" style="color: #cccccc; text-decoration: none;">Jamie Han</a> · <a href="https://soundcloud.com/jamie-han-349985932/if-you-bts-jungkook-if-youking-of-masked-singer" title="정국 - IF YOU(복면가왕) / BTS Jungkook - IF YOU(King Of Masked Singer)" target="_blank" style="color: #cccccc; text-decoration: none;">정국 - IF YOU(복면가왕) / BTS Jungkook - IF YOU(King Of Masked Singer)</a></div>
+	  </section>
+	</main>
+	<footer>
+	  <h5>Elaborado por Karina Benítez Hernández</h5>
+	</footer>
+</body>
+</html>
